@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/IdeaManagement/static/css/main.e1d00d6c.chunk.css",
+    "main.js": "/IdeaManagement/static/js/main.b89951d6.chunk.js",
+    "main.js.map": "/IdeaManagement/static/js/main.b89951d6.chunk.js.map",
+    "runtime-main.js": "/IdeaManagement/static/js/runtime-main.15d641b7.js",
+    "runtime-main.js.map": "/IdeaManagement/static/js/runtime-main.15d641b7.js.map",
+    "static/css/2.c490997a.chunk.css": "/IdeaManagement/static/css/2.c490997a.chunk.css",
+    "static/js/2.bae2afdc.chunk.js": "/IdeaManagement/static/js/2.bae2afdc.chunk.js",
+    "static/js/2.bae2afdc.chunk.js.map": "/IdeaManagement/static/js/2.bae2afdc.chunk.js.map",
+    "static/js/3.c142bedb.chunk.js": "/IdeaManagement/static/js/3.c142bedb.chunk.js",
+    "static/js/3.c142bedb.chunk.js.map": "/IdeaManagement/static/js/3.c142bedb.chunk.js.map",
+    "index.html": "/IdeaManagement/index.html",
+    "static/css/2.c490997a.chunk.css.map": "/IdeaManagement/static/css/2.c490997a.chunk.css.map",
+    "static/css/main.e1d00d6c.chunk.css.map": "/IdeaManagement/static/css/main.e1d00d6c.chunk.css.map",
+    "static/js/2.bae2afdc.chunk.js.LICENSE.txt": "/IdeaManagement/static/js/2.bae2afdc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15d641b7.js",
+    "static/css/2.c490997a.chunk.css",
+    "static/js/2.bae2afdc.chunk.js",
+    "static/css/main.e1d00d6c.chunk.css",
+    "static/js/main.b89951d6.chunk.js"
+  ]
+}
