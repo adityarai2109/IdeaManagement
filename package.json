@@ -1,4 +1,5 @@
 {
+  "homepage": "https://adityarai2109.github.io/IdeaManagement",
   "name": "idea_management",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +20,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
