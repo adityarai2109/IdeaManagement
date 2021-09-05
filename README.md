@@ -1,3 +1,29 @@
+# Basic features of this app:
+
+## Filter
+
+You can filter/group the highlights according to the tags to focus on a particular tag.
+
+## Drag and Drop
+
+The highlights can be dragged in the app according to your need to give you a better workspace
+
+## Add
+
+You can add a new idea anytime with a handy form on the left side
+
+## Delete
+
+You may delete the ideas as soon as they are done
+
+## Edit
+
+You may alter then whenever you want
+
+## Random colours
+
+The highlights have an automated function to generate random colours
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
