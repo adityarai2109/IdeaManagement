@@ -29,7 +29,7 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
     newdata[index] = formData;
     setIdeas(newdata);
     console.log(formData);
-    // setEditData(false);
+    setEditData(false); 
   };
   return (
     <>
@@ -58,7 +58,7 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
                 className="form-control"
                 name="idea"
                 onChange={(e) => {
-                  setEditData(false);
+                  // setEditData(false); // moved to handleSubmit()
                   handleChange(e);
                 }}
               />
@@ -89,7 +89,7 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
                 <EditIcon
                   onClick={(e) => {
                     setEditData(true);
-                    handleSubmit(e);
+                    // handleSubmit(e);
                     console.log("index", allideas.indexOf(ideas));
                   }}
                 />
