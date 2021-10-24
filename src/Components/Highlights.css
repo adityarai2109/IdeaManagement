@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .highlights {
   border-radius: 5px;
@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Kaisei HarunoUmi;
+  font-family: Lato;
   flex-wrap: wrap;
 }
 
