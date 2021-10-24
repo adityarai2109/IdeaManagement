@@ -10,7 +10,7 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
   let index = allideas.indexOf(ideas);
   function color() {
     let rgb = [];
-    for (let i = 0; i < 3; i++) rgb.push(Math.floor(255 - Math.random() * 100));
+    for (let i = 0; i < 3; i++) rgb.push(Math.floor(Math.floor(255-150*Math.random())));
     return "rgb(" + rgb.join(",") + ")";
   }
 
@@ -25,11 +25,14 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // console.log(allideas);
     let newdata = [...allideas];
     newdata[index] = formData;
     setIdeas(newdata);
     console.log(formData);
+    // console.log(editData);
     setEditData(false); 
+    // console.log(editData);
   };
   return (
     <>
@@ -42,9 +45,7 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
                 className="form-select"
                 aria-label="Default select example"
                 name="tags"
-                onChange={(e) => {
-                  handleChange(e);
-                }}
+                onChange={handleChange}
               >
                 <option selected>Open this select menu</option>
                 <option value="Idea">Idea</option>
@@ -57,15 +58,12 @@ export default function Highlights({ allideas, ideas, setIdeas, editIdea }) {
               <input
                 className="form-control"
                 name="idea"
-                onChange={(e) => {
-                  // setEditData(false); // moved to handleSubmit()
-                  handleChange(e);
-                }}
+                onChange={handleChange}
               />
               <br />
               <label>User</label>
               <input
-                className="form-control "
+                className="form-control"
                 name="user"
                 onChange={handleChange}
               />
